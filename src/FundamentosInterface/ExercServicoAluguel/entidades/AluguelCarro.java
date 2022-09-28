@@ -1,4 +1,4 @@
-package FundamentosInterface.modelos.entidades;
+package FundamentosInterface.ExercServicoAluguel.entidades;
 
 import java.util.Date;
 

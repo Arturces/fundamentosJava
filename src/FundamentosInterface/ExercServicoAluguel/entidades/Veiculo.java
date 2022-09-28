@@ -1,4 +1,4 @@
-package FundamentosInterface.modelos.entidades;
+package FundamentosInterface.ExercServicoAluguel.entidades;
 
 public class Veiculo {
 

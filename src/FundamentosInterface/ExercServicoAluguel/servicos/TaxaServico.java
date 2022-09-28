@@ -1,4 +1,4 @@
-package FundamentosInterface.servicos;
+package FundamentosInterface.ExercServicoAluguel.servicos;
 
 public interface TaxaServico {
 

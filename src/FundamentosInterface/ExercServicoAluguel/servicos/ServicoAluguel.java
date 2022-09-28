@@ -1,7 +1,7 @@
-package FundamentosInterface.servicos;
+package FundamentosInterface.ExercServicoAluguel.servicos;
 
-import FundamentosInterface.modelos.entidades.AluguelCarro;
-import FundamentosInterface.modelos.entidades.Faturamento;
+import FundamentosInterface.ExercServicoAluguel.entidades.AluguelCarro;
+import FundamentosInterface.ExercServicoAluguel.entidades.Faturamento;
 
 public class ServicoAluguel {
 

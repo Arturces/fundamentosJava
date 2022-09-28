@@ -1,9 +1,9 @@
-package FundamentosInterface.aplicacao;
+package FundamentosInterface.ExercServicoAluguel.aplicacao;
 
-import FundamentosInterface.modelos.entidades.AluguelCarro;
-import FundamentosInterface.modelos.entidades.Veiculo;
-import FundamentosInterface.servicos.ServicoAluguel;
-import FundamentosInterface.servicos.TaxaServicoBrasileiro;
+import FundamentosInterface.ExercServicoAluguel.entidades.AluguelCarro;
+import FundamentosInterface.ExercServicoAluguel.entidades.Veiculo;
+import FundamentosInterface.ExercServicoAluguel.servicos.ServicoAluguel;
+import FundamentosInterface.ExercServicoAluguel.servicos.TaxaServicoBrasileiro;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
