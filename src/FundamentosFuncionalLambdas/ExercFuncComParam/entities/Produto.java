@@ -1,4 +1,4 @@
-package FundamentosComposicao.DesafioFixacao.entidades;
+package FundamentosFuncionalLambdas.ExercFuncComParam.entities;
 
 public class Produto {
     private String nome;
@@ -25,8 +25,16 @@ public class Produto {
         this.preco = precoProduto;
     }
 
+    public static String staticUpperCaseName(Produto p) {
+        return p.getNome().toUpperCase();
+    }
+
+    public String nonStaticUpperCaseName() {
+        return nome.toUpperCase();
+    }
+
     @Override
-    public String toString(){
-        return nome + ", " + String.format("%.2f",preco);
+    public String toString() {
+        return nome + ", " + String.format("%.2f", preco);
     }
 }

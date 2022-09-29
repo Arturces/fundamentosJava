@@ -1,4 +1,4 @@
-package FundamentosComposicao.DesafioFixacao.entidades;
+package FundamentosFuncionalLambdas.Consumer.entities;
 
 public class Produto {
     private String nome;
@@ -23,6 +23,22 @@ public class Produto {
 
     public void setPrecoProduto(double precoProduto) {
         this.preco = precoProduto;
+    }
+
+    public static boolean staticProdutoPredicate(Produto p){ //expressao lambda com referece method com metodo static
+        return p.getPrecoProduto() >= 100.0;
+    }
+
+    public boolean nonStaticProdutoPredicate(){//expressao lambda com referece method com metodo não static
+        return preco >= 100.0;
+    }
+
+    public static void staticPrecoUpdate(Produto p){
+        p.setPrecoProduto(p.getPrecoProduto() * 1.1);
+    }
+
+    public void nonStaticPrecoUpdate(){
+        setPrecoProduto(getPrecoProduto() * 1.1);
     }
 
     @Override
