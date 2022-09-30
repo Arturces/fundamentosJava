@@ -1,4 +1,4 @@
-package FundamentosStream.InicioStream.ExercStream.entidades;
+package FundamentosStream.ExercStream.entidades;
 
 public class Produto {
     private String nome;
