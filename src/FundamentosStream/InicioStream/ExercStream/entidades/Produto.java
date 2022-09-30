@@ -25,13 +25,13 @@ public class Produto {
         this.preco = precoProduto;
     }
 
-   public static String staticUpperCaseName(Produto p){
+    public static String staticUpperCaseName(Produto p) {
         return p.getNome().toUpperCase();
-   }
+    }
 
-   public String nonStaticUpperCaseName(){
+    public String nonStaticUpperCaseName() {
         return nome.toUpperCase();
-   }
+    }
 
     @Override
     public String toString() {
